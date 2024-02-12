@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: x-large;
+
+  }
+
+  section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    border: 5px solid black;
+  }
+
+  .containerAddTarefa {
+    width: 324px;
+    margin: 20px;
+  }
+
+  .inputAdd {
+    width: 200px;
+    height: 30px;
+  }
+
+  .buttonAdd {
+    width: 120px;
+    height: 30px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    width: 324px;
+    list-style: none;
+    padding: 10px 0px;
+  }
+
+  .inputCheckBox {
+    width: 17px;
+    height: 17px;
+  }
+
+  .containerCheckBox {
+    width: 210px;
+    font-size: x-large;
+  }
+
+  .buttonRemover {
+    width: 30px;
+    height: 30px;
+  }
