@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+<!-- Fontes -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d08dd2c88e.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&family=Protest+Riot&display=swap" rel="stylesheet">
+    
+
+
+    <title>To Do List</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="titulo">Lista de Tarefas</h1>
+    </header>
+    <section>
+        <div class="container">
+            <div class="containerAddTarefa">
+                <input type="text" placeholder="Digite uma tarefa..." class="inputAdd"/>
+                <button class="buttonAdd"><b>Adicionar</b></button>
+            </div>
+
+            <ul>
+                <li class="lista">
+                     <div class="containerCheckBox">
+                        <input type="checkbox" class="inputCheckBox" onchange="marcarConcluida(this)"><span> Tarefa 1 </span>
+                    </div>
+                     <button class="buttonRemover"><i class="fa-solid fa-square-xmark"></i></button>
+                    </li>
+
+                <li class="lista">
+                     <div class="containerCheckBox">
+                        <input type="checkbox" class="inputCheckBox" onchange="marcarConcluida(this)"><span> Tarefa 2 </span>
+                    </div>
+                     <button class="buttonRemover"><i class="fa-solid fa-square-xmark"></i></button>
+                    </li>
+
+                <li class="lista">
+                     <div class="containerCheckBox">
+                        <input type="checkbox" class="inputCheckBox" onchange="marcarConcluida(this)"><span> Tarefa 3 </span>
+                    </div>
+                     <button class="buttonRemover"><i class="fa-solid fa-square-xmark"></i></button>
+                    </li>
+
+                <li class="lista">
+                     <div class="containerCheckBox">
+                        <input type="checkbox" class="inputCheckBox" onchange="marcarConcluida(this)"><span> Tarefa 4 </span>
+                    </div>
+                     <button class="buttonRemover"><i class="fa-solid fa-square-xmark"></i></button>
+                    </li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+
+</html>
