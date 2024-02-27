@@ -1,0 +1,190 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box
+  
+}
+
+body {
+  background: white url('https://images.unsplash.com/photo-1581431886211-6b932f8367f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-top: 250px;
+  font-size: x-large; 
+  width: 100%;
+}
+
+#btnTema {
+  position: absolute;
+  width: 150px;
+  height: 35px;
+  border: 3px solid black;
+  border-radius: 10px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: x-large;
+  margin-right: 600px;
+}
+
+#btnTema:hover {
+  background-color: rgba(128, 128, 128, 0.39);
+}
+
+#btnTema:active {
+  background-color: gray;
+}
+
+#titulo {
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px 5px;
+  width: 340px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 20px 0px;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+.containerAddTarefa {
+  width: 324px;
+  margin: 20px;
+}
+
+.inputAdd {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.buttonAdd {
+  width: 120px;
+  height: 30px;
+  border-radius: 10px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.buttonAdd:hover {
+  background-color: rgba(128, 128, 128, 0.39);
+}
+
+.buttonAdd:active {
+  background-color: gray;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  width: 324px;
+  list-style: none;
+  padding: 10px 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+li:hover {
+  background-color:  rgba(128, 128, 128, 0.39);
+}
+
+.concluida {
+  text-decoration: line-through;
+
+}
+
+.inputCheckBox {
+  display: none;
+}
+.inputCheckBox + label:before {
+  content: '';
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  border-radius: 10px;
+  margin-right: 5px;
+  border: 2px solid black;
+  margin-bottom: -5px;
+  text-align: center;
+  line-height: 1em;
+}
+
+.inputCheckBox:checked + label {
+  color: black;
+}
+.inputCheckBox:checked + label:before {
+  content: '\2714';
+  display: inline-block;
+  background-color: gray;
+}
+
+.containerCheckBox {
+  width: 210px;
+  font-size: x-large;
+}
+
+.buttonRemover {
+  width: 30px;
+  height: 26px;
+  border-radius: 10px;
+  font-size: 1.5em;
+  border: none;
+  background-color: white;
+}
+
+button:hover {
+  background-color: red;
+}
+
+.buttonRemover:active {
+  background-color: red;
+}
+
+#divContarTarefas {
+  display: flex;
+  justify-content: center;
+  width: 330px;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 5px;
+  font-family: "Protest Riot", sans-serif;
+  font-size: x-large;
+}
