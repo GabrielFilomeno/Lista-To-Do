@@ -195,7 +195,9 @@ button:hover {
 
   body {
       background: white url('https://images.tcdn.com.br/img/img_prod/924755/caderno_wire_o_a5_rosa_aquarela_103_1_044ef6a6ec568817b36050f061cde59d.jpg');
-          background-position: center;
+          background-size: 700px 800px;
+          background-position-x: -240px;
+          background-position-y: -70px;
           font-size: small;
     }
 
@@ -245,5 +247,9 @@ button:hover {
   li {
       width: 100%;
       margin: 3px 70px;
+  }
+
+  #btnTema {
+    margin-top: 100px;
   }
 }
