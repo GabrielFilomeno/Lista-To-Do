@@ -39,7 +39,7 @@ header {
   background-color: gray;
 }
 
-#titulo {
+#tituloh1 {
   border-top: 5px solid black;
   border-left: 5px solid black;
   border-right: 5px solid black;
@@ -215,11 +215,11 @@ button:hover {
       margin-left: 50px;
   }
   
-  #titulo {
+  #tituloh1 {
       margin-left: 50px;
   }
 
-  #titulo, #divContarTarefas {
+  #tituloh1, #divContarTarefas {
     width: 70%;
   }
 
