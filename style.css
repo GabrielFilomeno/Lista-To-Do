@@ -194,7 +194,7 @@ button:hover {
 @media screen and (max-width: 600px) {
 
   *{
-    font-size: small;
+    font-size: 16px;
   }
 
   body {
@@ -251,9 +251,5 @@ button:hover {
   li {
       width: 100%;
       margin: 3px 70px;
-  }
-
-  .buttonRemover{
-    font-size: 1.5em;
   }
 }
