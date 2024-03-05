@@ -83,6 +83,7 @@ function trocarTema() {
 
             document.body.style.backgroundImage = "url('https://img.freepik.com/fotos-gratis/vista-superior-organizada-arranjo-de-elementos-de-mesa-em-fundo-rosa_23-2148513293.jpg?t=st=1708993116~exp=1708996716~hmac=6a28cd8de39d48e5bbdcffbd1aa059269643acbe7f475fc5f719cb67966da46c&w=1380')";
             document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundPositionY = "-120px";
 
             document.body.id = "b2";
 
@@ -90,6 +91,7 @@ function trocarTema() {
 
             document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1581431886211-6b932f8367f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
             document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundPositionY = "1px";
 
             document.body.id = "b1";
         };
