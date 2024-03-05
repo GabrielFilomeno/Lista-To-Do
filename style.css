@@ -209,18 +209,20 @@ button:hover {
   }
 
   #btnTema {
-    margin-top: 50px;
-    margin-left: 740px;
+    margin-top: 28px;
+    margin-left: 750px;
     width: 15%;
     font-size: small;
   }
   section {
-      margin-left: 30px;
+      margin-left: 15px;
+      margin-right: 10px;
   }
   
   #tituloh1 {
-    margin-top: 45px;
-      margin-left: 30px;
+    margin-top: 20px;
+      margin-left: 15px;
+      margin-right: 10px;
   }
 
   #tituloh1, #divContarTarefas {
