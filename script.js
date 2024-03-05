@@ -63,9 +63,9 @@ function removerTarefa(titulo) {
 document.body.onresize = function () {
     if (document.body.clientWidth < 600) {
         document.body.style.background = "white url('https://images.tcdn.com.br/img/img_prod/924755/caderno_wire_o_a5_rosa_aquarela_103_1_044ef6a6ec568817b36050f061cde59d.jpg')";
-        document.body.style.backgroundSize = "700px 800px";
-        document.body.style.backgroundPositionX = "-240px";
-        document.body.style.backgroundPositionY = "-70px";
+        document.body.style.backgroundSize = "600px 700px";
+        document.body.style.backgroundPositionX = "-195px";
+        document.body.style.backgroundPositionY = "-50px";
     } else {
         document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1581431886211-6b932f8367f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
         document.body.style.backgroundSize = "100%";
@@ -99,18 +99,18 @@ function trocarTema() {
         if (document.body.id == "b1") {
 
             document.body.style.background = "white url('https://images.unsplash.com/photo-1581431886211-6b932f8367f2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')";
-            document.body.style.backgroundSize = "785px 700px";
-            document.body.style.backgroundPositionX = "-190px";
-            document.body.style.backgroundPositionY = "-15px";
+            document.body.style.backgroundSize = "735px 650px";
+            document.body.style.backgroundPositionX = "-170px";
+            document.body.style.backgroundPositionY = "-5px";
 
             document.body.id = "b2";
 
         } else if (document.body.id == "b2") {
 
             document.body.style.background = "white url('https://images.tcdn.com.br/img/img_prod/924755/caderno_wire_o_a5_rosa_aquarela_103_1_044ef6a6ec568817b36050f061cde59d.jpg')";
-            document.body.style.backgroundSize = "700px 800px";
-            document.body.style.backgroundPositionX = "-240px";
-            document.body.style.backgroundPositionY = "-70px";
+            document.body.style.backgroundSize = "600px 700px";
+            document.body.style.backgroundPositionX = "-195px";
+            document.body.style.backgroundPositionY = "-50px";
 
             document.body.id = "b1";
         };
