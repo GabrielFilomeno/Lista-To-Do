@@ -254,4 +254,8 @@ button:hover {
       width: 100%;
       margin: 3px 70px;
   }
+
+  .buttonRemover {
+    font-size: 22px;
+  }
 }
