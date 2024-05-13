@@ -155,7 +155,7 @@ function lerLista() {
 // Verifica se esta acessando de um celular para deixar o background de acordo
 document.body.onresize = function () {
     if (document.body.clientWidth < 600) {
-        document.body.style.background = "white url('https://images.tcdn.com.br/img/img_prod/924755/caderno_wire_o_a5_rosa_aquarela_103_1_044ef6a6ec568817b36050f061cde59d.jpg')";
+        document.body.style.background = "white url('https://i.pinimg.com/736x/fc/5a/c9/fc5ac950508ae91c25f6d50a0689017c.jpg')";
         document.body.style.backgroundSize = "600px 700px";
         document.body.style.backgroundPositionX = "-195px";
         document.body.style.backgroundPositionY = "-50px";
@@ -202,7 +202,7 @@ function trocarTema() {
 
         } else if (document.body.id == "b2") {
 
-            document.body.style.background = "white url('https://images.tcdn.com.br/img/img_prod/924755/caderno_wire_o_a5_rosa_aquarela_103_1_044ef6a6ec568817b36050f061cde59d.jpg')";
+            document.body.style.background = "white url('https://i.pinimg.com/736x/fc/5a/c9/fc5ac950508ae91c25f6d50a0689017c.jpg')";
             document.body.style.backgroundSize = "600px 700px";
             document.body.style.backgroundPositionX = "-195px";
             document.body.style.backgroundPositionY = "-50px";
